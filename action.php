@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "id12528107_charnel2580";
-$password = "charnel143";
-$database = "id12528107_chanrel";
+$servername = "batulan.mysql.database.azure.com";
+$username = "Charnel2580@batulan";
+$password = "@charnel143";
+$database = "batulan";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -23,7 +23,7 @@ if(isset($_POST["action"]))
 $conn = mysqli_connect($servername, $username, $password, $database);
  if($_POST["action"] == "fetch")
  {
-  $query = "SELECT * FROM tbl_images ORDER BY id DESC";
+  $query = "SELECT * FROM INVENTORY ORDER BY id DESC";
   $result = mysqli_query($conn, $query);
   $output = '
    <table class="table table-bordered table-striped">  
