@@ -1,3 +1,3 @@
 <?php
-    echo "hello sir sana ol!";
+    echo "hello sir  pasa na nako ni dili ko ka sulod karon salamat!";
 	?>
