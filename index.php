@@ -10,7 +10,7 @@
  <body>  
   <br /><br />  
   <div class="container" style="width:900px;">  
-   <h3 align="center">CHARNEL BATULAN ASSIGNMENT CLOUD</h3>  
+   <h3 align="center">CHARNEL BATULAN act 3 CLOUD</h3>  
    <br />
    <div align="right">
     <button type="button" name="add" id="add" class="btn btn-success">Add Image</button>
