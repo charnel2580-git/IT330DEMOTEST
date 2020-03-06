@@ -23,7 +23,7 @@ if(isset($_POST["action"]))
 $conn = mysqli_connect($servername, $username, $password, $database);
  if($_POST["action"] == "fetch")
  {
-  $query = "SELECT * FROM INVENTORY ORDER BY id DESC";
+  $query = "SELECT * FROM tbl_images ORDER BY id DESC";
   $result = mysqli_query($conn, $query);
   $output = '
    <table class="table table-bordered table-striped">  
